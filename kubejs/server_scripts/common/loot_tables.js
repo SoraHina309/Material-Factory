@@ -143,7 +143,7 @@ ServerEvents.blockLootTables(event =>{
             p.addItem('minecraft:clay_ball').count([16,32]).weight(8)
             p.addItem('minecraft:prismarine_shard').count([1,2]).weight(8)
             p.addItem('minecraft:prismarine_crystals').count([1,2]).weight(8)
-            p.addItem('minecraft:nautilus_shell').count([1]).weight(4)
+            p.addItem('minecraft:nautilus_shell').weight(4)
             p.addItem('minecraft:heart_of_the_sea').count([1]).weight(1)
             p.addItem('minecraft:fire_charge').count([1,3]).weight(8)
             p.addItem('minecraft:blaze_rod').count([1,2]).weight(8)
